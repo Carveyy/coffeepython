@@ -1,0 +1,96 @@
+html{
+    overflow-x: hidden;
+}
+body{
+    background-color:peachpuff;
+}
+.footer{
+    position:fixed;
+    bottom: 0px;
+    height: 4.8%;
+    width: 100%;
+    background-color:#66cc99;
+    color: white;
+    text-align: center;
+}
+.footer-items{
+    margin-left: 50px;
+}
+.logo-image{
+    width:2vw;
+    margin-left:1.5px;
+}
+.home-and-products-body{
+    min-height: calc(95.2% - 83.15px);
+}
+.page-row{
+    display:flex;
+}
+.page-column{
+    flex:50%;
+}
+.carousel{
+    height:87.28vh;
+    width:50%vw;
+    max-width:50vw;
+}
+.indicator{
+    margin-bottom: 10px;
+}
+.home-text{
+    margin-top:15px;
+    margin-bottom:10px;
+    font-size:10vh;
+    text-align:center;
+}
+.order-now{
+    margin-top:50px;
+    font-size:3.5vh;
+    text-align:center;
+}
+.product-list{
+    text-align: center;
+    color:#800000;
+}
+.menu-image{
+    height:150px;
+}
+.column-name{
+    background-color: green;
+}  
+.home-image{
+    width: 50%px; height: 100%;
+}
+.product-image{
+    max-width:100%;
+    height:auto;
+}
+.page-body{
+    min-height: calc(100% - 96.163px);    
+}
+.product-image{
+    border-radius:30%;
+    margin-top:25vh;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+.place-order{
+    text-align:center;
+    margin-top:2vh;
+    font-size:5vh;
+}
+.index-name{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:7vh;
+    text-align:center;
+    margin-top:25vh;
+    margin-right:10vh;
+}
+.index-description{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:3vh;
+    text-align:center;
+    margin-right:10vh;
+}
